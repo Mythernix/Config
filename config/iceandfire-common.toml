@@ -120,7 +120,7 @@
 		blacklistedBreakBlocks = []
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 0
+		"Dragon Griefing" = 2
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = false
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
@@ -285,7 +285,7 @@
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Max Health" = 200.0
 		#Whether or not cyclops can break logs or leaves in their way
-		"Cyclops Griefing" = true
+		"Cyclops Griefing" = false
 		#Amount of damage done with cyclops bite attack.
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Bite Strength" = 50.0
@@ -459,4 +459,3 @@
 	"Dragon Max Pathfinding Nodes" = 5000
 	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
 	"Debug Pathfinding Mode" = false
-
